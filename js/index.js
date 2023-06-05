@@ -48,13 +48,13 @@ function Escopo () {
         imc = imc.toFixed(2);
 
         const nivelImc = ['(Abaixo do Peso)', '(Peso normal)', '(Sobrepeso)', '(Obesidade grau 1)', '(Obesidade grau 2)', '(Obesidade grau 3)'];
-
-        if (imc < 18.5) return `Seu imc é ${imc} ${nivelImc[0]}`; // abaixo do peso
-        if (imc >= 18.5) return `Seu imc é ${imc} ${nivelImc[1]}`; // peso normal
-        if (imc >= 24.9) return `Seu imc é ${imc} ${nivelImc[2]}`; // sobrepeso
-        if (imc >= 29.9) return `Seu imc é ${imc} ${nivelImc[3]}`; // obesidade grau 1
-        if (imc >= 34.9) return `Seu imc é ${imc} ${nivelImc[4]}`; // obesidade grau 2
+        
         if (imc >= 39.9) return `Seu imc é ${imc} ${nivelImc[5]}`; // obesidade grau 3
+        if (imc >= 34.9) return `Seu imc é ${imc} ${nivelImc[4]}`; // obesidade grau 2
+        if (imc >= 29.9) return `Seu imc é ${imc} ${nivelImc[3]}`; // obesidade grau 1
+        if (imc >= 24.9) return `Seu imc é ${imc} ${nivelImc[2]}`; // sobrepeso
+        if (imc >= 18.5) return `Seu imc é ${imc} ${nivelImc[1]}`; // peso normal
+        if (imc < 18.5) return `Seu imc é ${imc} ${nivelImc[0]}`; // abaixo do peso
     }
 
     function limpaInput () {

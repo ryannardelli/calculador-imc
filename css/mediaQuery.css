@@ -4,4 +4,12 @@
     main {
         flex-wrap: nowrap;
     }
+
+    #section-first {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    img {
+        height: 360px;
+    }
 }

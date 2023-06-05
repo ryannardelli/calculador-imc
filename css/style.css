@@ -27,6 +27,11 @@ main {
     transform: translate(-50%, -50%);
 }
 
+section {
+    height: 320px;
+    width: 320px;
+}
+
 #section-first {
     background-color: white;
     color: black;
@@ -70,7 +75,7 @@ button:hover {
 
 img {
     height: 320px;
-    width: 320px;
+    width: 340px;
 }
 
 .incorreto {

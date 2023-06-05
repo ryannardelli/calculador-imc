@@ -28,7 +28,7 @@ main {
 }
 
 section {
-    height: 320px;
+    height: 340px;
     width: 320px;
 }
 
@@ -54,8 +54,8 @@ label {
 
 input {
     margin: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 88%
 }
 
@@ -74,7 +74,7 @@ button:hover {
 }
 
 img {
-    height: 320px;
+    height: 340px;
     width: 340px;
 }
 

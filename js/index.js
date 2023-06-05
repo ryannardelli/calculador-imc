@@ -54,7 +54,7 @@ function Escopo () {
         if (imc >= 29.9) return `Seu imc é ${imc} ${nivelImc[3]}`; // obesidade grau 1
         if (imc >= 24.9) return `Seu imc é ${imc} ${nivelImc[2]}`; // sobrepeso
         if (imc >= 18.5) return `Seu imc é ${imc} ${nivelImc[1]}`; // peso normal
-        if (imc < 18.5) return `Seu imc é ${imc} ${nivelImc[0]}`; // abaixo do peso
+        if (imc < 18.5) return `Seu imc é ${imc} ${nivelImc[0]}`;  // abaixo do peso
     }
 
     function limpaInput () {

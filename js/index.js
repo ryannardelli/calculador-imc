@@ -34,7 +34,7 @@ function Escopo () {
         resultado.appendChild(p);
         
         if (corValor === false) {
-            resultado.setAttribute('class', 'incorreto')
+            resultado.setAttribute('class', 'incorreto');
         } else if (corValor === true) {
             resultado.setAttribute ('class', 'correto');
         }

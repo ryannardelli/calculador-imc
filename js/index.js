@@ -27,13 +27,13 @@ function Escopo () {
         return p;
     }
 
-    function mostraResultado (msg, corValorIncorreto) {
+    function mostraResultado (msg, corValor) {
         const p = criaP();
         p.innerHTML = msg;
         resultado.innerHTML = '';
         resultado.appendChild(p);
         
-        if (corValorIncorreto === false) {
+        if (corValor === false) {
             resultado.setAttribute('class', 'incorreto')
         } else if (corValorIncorreto === true) {
             resultado.setAttribute ('class', 'correto');

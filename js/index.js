@@ -10,7 +10,7 @@ function Escopo () {
         const altura = Number(inputAltura.value);
         
         if (isNaN(peso) === true && isNaN(altura) === true || peso === 0 && altura === 0) {
-            mostraResultado ('Peso e altura inválidos', false)
+            mostraResultado ('Peso e altura inválidos', false);
         } else if (isNaN(peso) === true || peso === 0) {
             mostraResultado ('Peso inválido', false);
         } else if (isNaN(altura) === true || altura === 0) {

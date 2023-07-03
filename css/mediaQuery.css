@@ -1,15 +1,7 @@
 @charset "UTF-8";
 
 @media (min-width: 768px) {
-    main {
-        flex-wrap: nowrap;
-    }
-
-    #section-first {
-        border-radius: 10px 0px 0px 10px;
-    }
-
-    img {
-        height: 360px;
+    section {
+        width: 400px;
     }
 }
